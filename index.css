@@ -6,3 +6,16 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+.page{
+    background: rgb(28, 28, 28);
+    min-height: auto;
+    width: 100%;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20;
+}
