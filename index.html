@@ -3,64 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, heigh=device-height, initial-scale=1.0">
     <title>HackDiversity</title>
-    <link rel="stylesheet" href="index.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .background{
+            background: #1d2026;
+            min-height: 100vh;
+            width: 100%;
+            color: #fff;
+            position: relative;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            padding: 20px 8%;
+        }
+        nav .main-logo{
+            width: 160px;
+            cursor: pointer;
+        }
+        nav ul{
+            flex:1;
+            text-align: right;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            color:#fff;
+        }
+    </style>
 </head>
 <body>
-    <div class="page">
-        <header>
-            <nav>
-                <img class ="logo" src="images/logo.png" alt="HackDiversityLogo.png">
-                <ul>
-                    <li><a href="#work">work</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#blog">blog</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div id="work"><h1>work</h1>
-            <div id="tutorials">
-    
-            </div>
-        </div>
-        <div id="about"><h1>about</h1>
-            <p>
-                Updating about.
-            </p>
-        </div>
-        <div id="blog"><h1>blog</h1>
-            <p>
-                In Progress blog.
-            </p>
-        </div>
-        <div id="contact">
-            <h1>contact</h1>
-            <table>
-                <tr>
-                    <td id="contactInfo">
-                        <tr>
-                            <td><i class="fas fa-phone"></i> &nbsp; +91 1234567890</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fas fa-at"></i> &nbsp; hackdiversity45@email.com</td>
-                        </tr>
-                        <tr>
-                            <td><i class="fas fa-map-marker-alt"></i>
-                            <div id="address">
-                                Street 123,<br>
-                                blah blah city,<br>
-                                blah blah country
-                            </div>
-                            </td>
-                        </tr>
-                    </td>
-                </tr>
-            </table>
-        </div>
+    <div class="background">
+        <nav>
+            <img class="main-logo" src="images/main-logo.png" alt="main-logo.png">
+            <ul>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button type="button">Get Started</button>
+        </nav>
     </div>
-    
-    <script src="index.js"></script>
+    <script>
+
+    </script>
 </body>
 </html>
